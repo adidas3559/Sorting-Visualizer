@@ -20,7 +20,7 @@ async function mergeDivider(oldArray, start, end) {
 }
 
 async function merge(oldArray, start, mid, end) {
-    let newArray = new Array();
+    let newArray = [];
     let leftIndex = start;
     let rightIndex = mid + 1;
 
