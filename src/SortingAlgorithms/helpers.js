@@ -1,4 +1,4 @@
-﻿
+
 
 export async function swap(array, a, b) {
     await sleep(20);
