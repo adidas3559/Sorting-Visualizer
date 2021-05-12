@@ -1,0 +1,66 @@
+﻿.page-container {
+    max-width: 85%;
+    width: 1240px;
+    margin: auto;
+}
+
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 50px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 950px) {
+    .button-container {
+        flex-direction: row;
+    }
+}
+
+.array-bar {
+    width: 2px;
+    background-color: pink;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.transition {
+    transition: all .4s ease-out;
+}
+
+.active {
+    background-color: red !important;
+    transition: none;
+}
+
+.moving {
+    background-color: purple !important;
+}
+
+
+.done {
+    background-color: #9CEC5B;
+    border-color: #9CEC5B;
+    color: white;
+    
+}
+
+.App {
+    background-color: #3f3f3f;
+    min-height: 100vh;
+}
+
+.selectionButton {
+    background-color: #242424;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
